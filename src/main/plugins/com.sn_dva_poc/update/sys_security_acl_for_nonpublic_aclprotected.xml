@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2023-05-19 15:49:34">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <sys_id>for_nonpublic_aclprotected</sys_id>
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="NonpublicAclProtected"/>
+        <description/>
+        <local_or_existing/>
+        <name>NonpublicAclProtected</name>
+        <operation display_value="execute">execute</operation>
+        <script/>
+        <security_attribute display_value=""/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-19 15:49:14</sys_created_on>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NonpublicAclProtected</sys_name>
+        <sys_package display_value="DVA POC" source="sn_dva_poc">aaaabbbbccccddddeeeeffff00001111</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DVA POC">aaaabbbbccccddddeeeeffff00001111</sys_scope>
+        <sys_update_name>sys_security_acl_for_nonpublic_aclprotected</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-19 15:49:14</sys_updated_on>
+        <type display_value="client_callable_script_include">client_callable_script_include</type>
+    </sys_security_acl>
+</unload>

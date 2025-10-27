@@ -1,0 +1,309 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Fortify",
+          "version": "1.0.0",
+          "informationUri": "https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview",
+          "rules": [
+            {
+              "id": "RuleDefinitions/xml-insecure-acl-record.xml",
+              "name": "ACL Issues",
+              "shortDescription": {
+                "text": "ACL Issues: Insecure ACL - record"
+              },
+              "fullDescription": {
+                "text": "This is a ACL Issues vulnerability of subtype Insecure ACL - record."
+              },
+              "help": {
+                "text": "This is a ACL Issues vulnerability of subtype Insecure ACL - record."
+              },
+              "properties": {
+                "name": "ACL Issues",
+                "problem.severity": "note",
+                "security-severity": "5.0",
+                "kingdom": "Security Features",
+                "category": "ACL Issues: Insecure ACL - record",
+                "subtype": "Insecure ACL - record"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "RuleDefinitions/xml-insecure-acl-record.xml",
+          "ruleIndex": 0,
+          "message": {
+            "text": "ACL Issues: Insecure ACL - record"
+          },
+          "level": "note",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "8AF66EBFDCEE07B83CD16D71DD264FA6"
+          },
+          "properties": {
+            "instanceId": "8AF66EBFDCEE07B83CD16D71DD264FA6",
+            "instanceSeverity": 5.0,
+            "severity": "Critical",
+            "kingdom": "Security Features",
+            "category": "ACL Issues: Insecure ACL - record",
+            "analyzer": "configuration",
+            "buildId": "lightholder-808"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update/sys_security_acl_create_for_ccsi_test_table.xml"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1,
+                  "snippet": {
+                    "text": "    <condition/>"
+                  }
+                }
+              },
+              "message": {
+                "text": "Line 12 of update/sys_security_acl_create_for_ccsi_test_table.xml"
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "update/sys_security_acl_create_for_ccsi_test_table.xml"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 1,
+                            "snippet": {
+                              "text": "    <condition/>"
+                            }
+                          }
+                        },
+                        "message": {
+                          "text": "Line 12 of update/sys_security_acl_create_for_ccsi_test_table.xml"
+                        }
+                      },
+                      "nestingLevel": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "relatedLocations": [
+            {
+              "id": 0,
+              "message": {
+                "text": "Source"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update/sys_security_acl_create_for_ccsi_test_table.xml"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1,
+                  "snippet": {
+                    "text": "    <condition/>"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "RuleDefinitions/xml-insecure-acl-record.xml",
+          "ruleIndex": 0,
+          "message": {
+            "text": "ACL Issues: Insecure ACL - record"
+          },
+          "level": "note",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "26C146753C08B969DBBDEFEF2E5455E7"
+          },
+          "properties": {
+            "instanceId": "26C146753C08B969DBBDEFEF2E5455E7",
+            "instanceSeverity": 5.0,
+            "severity": "Critical",
+            "kingdom": "Security Features",
+            "category": "ACL Issues: Insecure ACL - record",
+            "analyzer": "configuration",
+            "buildId": "lightholder-808"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update/sys_security_acl_read_for_ccsi_test_table.xml"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1,
+                  "snippet": {
+                    "text": "    <condition/>"
+                  }
+                }
+              },
+              "message": {
+                "text": "Line 12 of update/sys_security_acl_read_for_ccsi_test_table.xml"
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "update/sys_security_acl_read_for_ccsi_test_table.xml"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 1,
+                            "snippet": {
+                              "text": "    <condition/>"
+                            }
+                          }
+                        },
+                        "message": {
+                          "text": "Line 12 of update/sys_security_acl_read_for_ccsi_test_table.xml"
+                        }
+                      },
+                      "nestingLevel": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "relatedLocations": [
+            {
+              "id": 0,
+              "message": {
+                "text": "Source"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update/sys_security_acl_read_for_ccsi_test_table.xml"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1,
+                  "snippet": {
+                    "text": "    <condition/>"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "RuleDefinitions/xml-insecure-acl-record.xml",
+          "ruleIndex": 0,
+          "message": {
+            "text": "ACL Issues: Insecure ACL - record"
+          },
+          "level": "note",
+          "partialFingerprints": {
+            "primaryLocationLineHash": "AEE39B8E241E9327B4BC932A4B82FBE9"
+          },
+          "properties": {
+            "instanceId": "AEE39B8E241E9327B4BC932A4B82FBE9",
+            "instanceSeverity": 5.0,
+            "severity": "Critical",
+            "kingdom": "Security Features",
+            "category": "ACL Issues: Insecure ACL - record",
+            "analyzer": "configuration",
+            "buildId": "lightholder-808"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update/sys_security_acl_delete_for_ccsi_test_table.xml"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1,
+                  "snippet": {
+                    "text": "    <condition/>"
+                  }
+                }
+              },
+              "message": {
+                "text": "Line 12 of update/sys_security_acl_delete_for_ccsi_test_table.xml"
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "update/sys_security_acl_delete_for_ccsi_test_table.xml"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 1,
+                            "snippet": {
+                              "text": "    <condition/>"
+                            }
+                          }
+                        },
+                        "message": {
+                          "text": "Line 12 of update/sys_security_acl_delete_for_ccsi_test_table.xml"
+                        }
+                      },
+                      "nestingLevel": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "relatedLocations": [
+            {
+              "id": 0,
+              "message": {
+                "text": "Source"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update/sys_security_acl_delete_for_ccsi_test_table.xml"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1,
+                  "snippet": {
+                    "text": "    <condition/>"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ],
+  "scan_id": 15
+}

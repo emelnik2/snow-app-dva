@@ -1,0 +1,17 @@
+{
+    "code": {
+        "scanner_name": "fortify",
+        "rules": "fortify-snow-rules.xml",
+        "languages": "Java,JavaScript,ServiceNowJS,XML",
+        "build_id": "lightholder-808",
+        "files": "60",
+        "date": "2025-10-23",
+        "message": "app-dva",
+        "duration": 83.09,
+        "cpu": 12,
+        "ram": 64.0
+    },
+    "workspaces": [
+        "main"
+    ]
+}
