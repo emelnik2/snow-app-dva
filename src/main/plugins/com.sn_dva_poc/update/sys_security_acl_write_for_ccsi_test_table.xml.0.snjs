@@ -1,2 +1,0 @@
-//glidepreprocessor:script:14
-answer = gs.hasRole("itil"); // the same as the role relation
