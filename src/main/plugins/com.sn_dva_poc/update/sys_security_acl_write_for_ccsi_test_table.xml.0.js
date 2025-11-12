@@ -1,1 +1,0 @@
-answer = gs.hasRole("itil"); // the same as the role relation
