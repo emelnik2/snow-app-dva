@@ -1,0 +1,8 @@
+<database>
+    <element label="Test Table" name="ccsi_test_table" type="collection">
+        <element label="Name" name="name" type="string" hint="Friendly name of the profile"/>
+        <element label="User" name="user" type="reference" reference="sys_user" reference_cascade_rule="delete" unique="true" hint="User used for authentication and data assignment" mandatory="true"/>
+        <element label="Active" name="active" type="boolean" default="true" hint="whether this profile can be used for trusted circles"/>
+        <element label="Description" name="description" type="string" hint="hint"/>
+    </element>
+</database>
